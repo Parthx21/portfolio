@@ -9,7 +9,7 @@
 }
 
 :root {
-  --gradient: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  --gradient: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
 }
 
 body {
@@ -31,7 +31,7 @@ header {
 .logo i {
   height: 45px;
   width: 45px;
-  background-color: #6596ff;
+  background-color: #183063;
   border-radius: 50%;
   color: white;
   font-weight: 700;
@@ -44,7 +44,7 @@ header {
 .logo .logo-text {
   font-size: 24px;
   font-weight: 500;
-  color: #6596ff;
+  color: #ffffff;
 }
 nav .togglebtn {
   width: 35px;
