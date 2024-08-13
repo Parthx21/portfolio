@@ -9,7 +9,7 @@
 }
 
 :root {
-  --gradient: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+  --gradient: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
 }
 
 body {
@@ -31,7 +31,7 @@ header {
 .logo i {
   height: 45px;
   width: 45px;
-  background-color: #c850c0;
+  background-color: #6596ff;
   border-radius: 50%;
   color: white;
   font-weight: 700;
@@ -44,7 +44,7 @@ header {
 .logo .logo-text {
   font-size: 24px;
   font-weight: 500;
-  color: #c850c0;
+  color: #6596ff;
 }
 nav .togglebtn {
   width: 35px;
@@ -250,7 +250,7 @@ footer .lower .social a {
     transform: translateX(90%);
     width: 60%;
     height: 100vh;
-    background-color: #051120 ;
+    background-color: #051120;
     z-index: 3;
     transition: 0.5s;
     display: flex;
@@ -302,6 +302,6 @@ footer .lower .social a {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #a87af385;
+  background-color: #5087ff85;
   border-radius: 20px;
 }
