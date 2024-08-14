@@ -9,7 +9,7 @@
 }
 
 :root {
-  --gradient: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+  --gradient:linear-gradient(to top, #00c6fb 0%, #005bea 100%);;
 }
 
 body {
@@ -31,7 +31,7 @@ header {
 .logo i {
   height: 45px;
   width: 45px;
-  background-color: #183063;
+  background-color: #275bcb;
   border-radius: 50%;
   color: white;
   font-weight: 700;
