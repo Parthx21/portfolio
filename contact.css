@@ -47,3 +47,30 @@ body{
     height: 300px;
     width: 320px;
 }
+.social-links span{
+    color: white;
+    margin-left: 1rem;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    margin-left: 1rem;
+}
+ ul li{
+    padding: left;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.social-media i{
+    background: white;
+    color: black;
+    padding: 1px;
+    border-radius: 5px;
+    transition: .3s;
+    left: 5px;
+}
+.social-media i:hover{
+    background: blue;
+    color: white;
+}
