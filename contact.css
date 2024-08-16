@@ -119,8 +119,51 @@ form{
 .input-box .input:focus ~ label{
     top: -1px;
     left: 10px;
-    background: #05055a;
+    background: white;
     font-weight: 500;
     font-size: 12px;
     padding: 5px;
+    color: darkblue;
+}
+textarea.input{
+    resize: none;
+    overflow: auto;
+    color: darkblue;
+    min-height: 150px;
+}
+.btn
+{
+    position:relative;
+    top: 100px;
+    background:darkblue;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+@media(max-width:0px){
+    .item{
+        grid-template-columns: 1fr;
+        }
+    .btn{
+        width: 20%;
+        height: 40px;
+        font-size: 12px;
+        }  
+    .contact{
+        display: none;
+    }
+    .text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .btn{
+        width: 20%;
+        height: 40px;
+        font-size: 12px;
+    }  
 }
