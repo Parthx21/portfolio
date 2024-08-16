@@ -145,6 +145,34 @@ textarea.input{
     cursor: pointer;
     font-weight: 500;
 }
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    gap: 1.5rem;
+    background: #02062c93;
+    padding: 2rem;
+  }
+  footer hr {
+    border: 1px solid #4158d0;
+  }
+  footer .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .lower .social a {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+  }
 @media(max-width:850px){
     .item{
         grid-template-columns: 1fr;
