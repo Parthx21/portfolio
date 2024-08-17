@@ -9,12 +9,15 @@
     width: 100%;
     min-height: 100vh;
     background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
 }
 .container{
     width: 80%;
-    display: block;
+    display: flex;
     margin: auto;
     padding-top: 100px;
+    flex-direction: column;
 }
 .content-section{
     float: left;
@@ -25,7 +28,7 @@
     width: 40%;
 }
 .image-section img{
-    width: 100%;
+    width: 65%;
     height: auto;
 }
 .content-section .title{
@@ -68,7 +71,14 @@
         margin: auto;
     }
     .image-section img{
+        float: none;
         width: 100%;
-        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+        
     }
 }
