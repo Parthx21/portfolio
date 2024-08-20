@@ -5,11 +5,30 @@
     font-family: poppins;
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
+header {
+    background: darkblue;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .container{
     position: relative;
     width: 100%;
@@ -146,33 +165,14 @@ textarea.input{
     font-weight: 500;
 }
 footer {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-    gap: 1.5rem;
-    background: #02062c93;
-    padding: 2rem;
-  }
-  footer hr {
-    border: 1px solid #4158d0;
-  }
-  footer .upper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  footer .lower {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  footer .lower .social a {
-    font-size: 20px;
-    color: white;
-    margin-right: 10px;
-  }
+    background: darkblue;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 @media(max-width:850px){
     .item{
         grid-template-columns: 1fr;

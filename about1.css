@@ -96,7 +96,7 @@ main {
 }
 
 .image-section img {
-    max-width: 85%;
+    max-width: 80%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
