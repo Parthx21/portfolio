@@ -90,7 +90,7 @@ nav ul li a {
     left: 5px;
 }
 .social-media i:hover{
-    background: blue;
+    background: linear-gradient(to top, #00c6fb 0%, #005bea 100%);;
     color: white;
 }
 .third-text{
@@ -190,6 +190,15 @@ footer {
         font-size: 12px;
     }
 }
+footer {
+    margin-top: 6rem;
+  }
+  footer .lower {
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+
 @media(max-width:480px){
     .item{
         grid-template-columns: 1fr;
