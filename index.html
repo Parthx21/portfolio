@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" type="x-icon" href="logo2.png">
+    <link rel="shortcut icon" type="x-icon" href="logo2.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parthsarthi</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -16,8 +19,13 @@
       <div class="wrapper">
         <header>
           <div class="logo">
-            <i class="fa-solid fa-p"></i>
-            <div class="logo-text">Parthsarthi</div>
+            <img
+              src="./assets/logo.png"
+              alt="logo"
+              width="30px"
+              height="30px"
+            />
+            <span>Parthsarthi</span>
           </div>
           <nav>
             <div class="togglebtn">
@@ -28,16 +36,16 @@
             <div class="navlinks">
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about1.html" target="_blank">About</a></li>
-                <li><a href="projectpage.html" target="_blank">Projects</a></li>
-                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
           </nav>
         </header>
         <div class="container">
           <div class="hero-pic">
-            <img src="parth.jpg" alt="profile picture" />
+            <img src="./assets/parth.jpg" alt="profile picture" />
           </div>
           <div class="hero-text">
             <h5>Hi, I'm <span class="input">a Web Developer</span></h5>
@@ -45,12 +53,18 @@
             <p>
               Welcome to my portfolio! I'm Parthsarthi Sharma a web developer
               and a graphic designer, with keen interest in computers and
-              technology. I have worked as an intern at <b>Spearhead Technology</b> as
-              a system analyst. Currently, I'm looking to expand my knowledge
-              and skills in various areas, especially in UI/UX design.
+              technology. I have worked as an intern at
+              <b>Spearhead Technology</b> as a system analyst. Currently, I'm
+              looking to expand my knowledge and skills in various areas,
+              especially in UI/UX design.
             </p>
             <div class="btn-group">
-              <a href="https://drive.google.com/file/d/12RALZQ2QiZD6Y7ec4LMcSY7ukenES_0Z/view?usp=drivesdk" target="_blank" class="btn active">Resume</a>
+              <a
+                href="https://drive.google.com/file/d/12RALZQ2QiZD6Y7ec4LMcSY7ukenES_0Z/view?usp=drivesdk"
+                target="_blank"
+                class="btn active"
+                >Resume</a
+              >
               <a href="contact.html" class="btn" target="_blank">Contact</a>
             </div>
 
@@ -76,7 +90,7 @@
       <div class="upper">
         <h2>Let&apos;s Work Together</h2>
         <button style="background: none; border: 0">
-          <a href="#" class="btn">Contact</a>
+          <a href="#" class="link_btn">Contact</a>
         </button>
       </div>
       <hr />
@@ -98,22 +112,6 @@
       </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
-    <script>
-      var togglebtn = document.querySelector(".togglebtn");
-      var nav = document.querySelector(".navlinks");
-      var links = document.querySelector(".navlinks li");
-
-      togglebtn.addEventListener("click", function () {
-        this.classList.toggle("click");
-        nav.classList.toggle("open");
-      });
-
-      var typed = new Typed(".input", {
-        strings: ["a Web Develeoper", "a Graphic Designer"],
-        typeSpeed: 70,
-        backSpeed: 55,
-        loop: true,
-      });
-    </script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

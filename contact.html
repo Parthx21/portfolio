@@ -1,90 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
-    <link rel="stylesheet" href="contact.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1>Contact Me</h1>
-            <ul>
-                <li><a href="index.html" target="_blank">Home</a></li>
-                <li><a href="about1.html" target="_blank">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="contact.html" target="_blank">Contact</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="logo" width="30px" height="30px" />
+        <span>Parthsarthi</span>
+      </div>
+      <nav>
+        <div class="togglebtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="navlinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div class="container">
-        <div class="item">
-            <div class="contact">
-            <div class="first-text">Let's get in touch</div>
-            <img src="ok.png" alt="" class="image">
-            <div class="social-links">
-                <span class="second-text">Let's Connect:</span>
-                <ul class="social-media">
-                    <li><a href="https://www.linkedin.com/in/parthsarthi-sharma-090605244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-                    <li><a href="https://www.instagram.com/parthx21?igsh=aTliYTlhcDZqdjQ1" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                    <li><a href="https://github.com/Parthx21" target="_blank"><i class='bx bxl-github'></i></a></li>
-                    <li><a href="https://parthsarthisharma2103@gmail.com/" target="_blank"><i class='bx bxl-gmail'></i></a></li>
-                </ul>
-            </div>
-        </div>
-    
-    
-    <div class="submit-form">
-        <h4 class="third-text text">Contact Me</h4>
-        <form action="">
-            <div class="input-box">
-                <input type="text" class="input" required>
-                <label for="">Name</label>
-            </div>
-            <div class="input-box">
-                <input type="email" class="input" required>
-                <label for="">Email</label>
-            </div>
-            <div class="input-box">
-                <input type="tel" class="input" required>
-                <label for="">Phone</label>
-            </div>
-            <div class="input-box">
-                <textarea name="Message" cols="30" rows="10" class="input" value="Message" required id="message"></textarea>
-                <label for="">Message</label>
-            </div>
-            <input type="submit" value="Submit" class="btn">
-        </form>
-    </div>
-    </div>
-    <footer>
-        <div class="upper">
-          <h2>Let&apos;s Work Together</h2>
-          <button style="background: none; border: 0">
-            <a href="#" class="btn">Contact</a>
-          </button>
-        </div>
-        <hr />
-        <div class="lower">
-          <h3>Parthsarthi Sharma</h3>
-          <p>© 2024 All Rights Reserved | Parthsarthi Sharma</p>
-          <div class="social">
-            <a
-              href="https://www.linkedin.com/in/parthsarthi-sharma-090605244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="https://www.instagram.com/parthx21?igsh=aTliYTlhcDZqdjQ1"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-            <a href="https://github.com/Parthx21"
-              ><i class="fa-brands fa-github"></i
-            ></a>
+      <div class="item">
+        <div class="contact">
+          <div class="first-text">Let's get in touch</div>
+          <img src="./assets/contact.png" alt="" class="image" />
+          <div class="social-links">
+            <span class="second-text">Let's Connect:</span>
+            <ul class="social-media">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/parthsarthi-sharma-090605244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/parthx21?igsh=aTliYTlhcDZqdjQ1"
+                  target="_blank"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/Parthx21" target="_blank"
+                  ><i class="bx bxl-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://parthsarthisharma2103@gmail.com/"
+                  target="_blank"
+                  ><i class="bx bxl-gmail"></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
-</div>
 
-</body>
+        <div class="submit-form">
+          <h4 class="third-text text">Contact Me</h4>
+          <form action="">
+            <div class="input-box">
+              <input type="text" class="input" required />
+              <label for="">Name</label>
+            </div>
+            <div class="input-box">
+              <input type="email" class="input" required />
+              <label for="">Email</label>
+            </div>
+            <div class="input-box">
+              <input type="tel" class="input" required />
+              <label for="">Phone</label>
+            </div>
+            <div class="input-box">
+              <textarea
+                name="Message"
+                cols="30"
+                rows="10"
+                class="input"
+                value="Message"
+                required
+                id="message"
+              ></textarea>
+              <label for="">Message</label>
+            </div>
+            <input type="submit" value="Submit" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="upper">
+        <h2>Let&apos;s Work Together</h2>
+        <button style="background: none; border: 0">
+          <a href="#" class="link_btn">Contact</a>
+        </button>
+      </div>
+      <hr />
+      <div class="lower">
+        <h3>Parthsarthi Sharma</h3>
+        <p>© 2024 All Rights Reserved | Parthsarthi Sharma</p>
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/parthsarthi-sharma-090605244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/parthx21?igsh=aTliYTlhcDZqdjQ1"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/Parthx21"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <div class="fancy"></div>
+    <div class="fancy2"></div>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
