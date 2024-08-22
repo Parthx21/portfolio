@@ -5,9 +5,9 @@ function sendMail() {
   const message = document.getElementById("message").value;
 
   Email.send({
-    SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
-    To: "them@website.com",
-    From: "you@isp.com",
+    SecureToken: "5f400b0d-75fd-472a-9f17-6a57ed5e6c3d",
+    To: "parthog2103@gmail.com",
+    From: "parthog2103@gmail.com",
     Subject: subject,
     Body: `Name: ${username} <br> Email: ${email} <br> Message: ${message}`,
   }).then((message) => alert(message));
