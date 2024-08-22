@@ -12,3 +12,10 @@ function sendMail() {
     Body: `Name: ${username} <br> Email: ${email} <br> Message: ${message}`,
   }).then((message) => alert(message));
 }
+
+const form = document.getElementById("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  sendMail();
+});
