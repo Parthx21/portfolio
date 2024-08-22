@@ -5,7 +5,9 @@ function sendMail() {
   const message = document.getElementById("message").value;
 
   Email.send({
-    SecureToken: "5f400b0d-75fd-472a-9f17-6a57ed5e6c3d",
+    Host: "smtp.elasticemail.com",
+    Username: "parthog2103@gmail.com",
+    Password: "8565E780A9F7B0DDEC8975CE5EE6B74D3D8B",
     To: "parthog2103@gmail.com",
     From: "parthog2103@gmail.com",
     Subject: subject,
