@@ -38,7 +38,7 @@
     <main>
       <section>
         <img src="./assets/contact.png" alt="contact" class="img" />
-        <form>
+        <form onsubmit="sendMail()">
           <h1>Contact Me</h1>
           <input type="text" placeholder="Name" id="name" required />
           <input type="email" placeholder="Email" id="email" required />
@@ -83,5 +83,7 @@
     <div class="fancy"></div>
     <div class="fancy2"></div>
     <script src="./js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/mail.js"></script>
   </body>
 </html>
